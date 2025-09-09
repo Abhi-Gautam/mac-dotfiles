@@ -1,0 +1,74 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.defaultInterpreterPath": "/Users/abhishekgautam/uml/env/bin/python",
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "editor.fontSize": 16,
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "vscode-edge-devtools.webhint": false,
+    "code-runner.runInTerminal": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.largeFileOptimizations": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "debug.onTaskErrors": "debugAnyway",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "git.enableSmartCommit": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.inheritEnv": false,
+    "window.zoomLevel": 1,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "interactiveWindow.executeWithShiftEnter": true,
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.iconTheme": "catppuccin-frappe",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.editor.showTabs": "none",
+    "rust-analyzer.typing.continueCommentsOnNewline": false,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "chat.mcp.discovery.enabled": true,
+    "latex-workshop.formatting.latex": "latexindent",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "chat.editing.confirmEditRequestRetry": false
+}
