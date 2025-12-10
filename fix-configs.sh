@@ -239,7 +239,21 @@ else
 fi
 
 # ============================================
-# 7. Final summary
+# 7. Setup Ghostty configuration
+# ============================================
+echo ""
+print_info "Setting up Ghostty configuration..."
+
+# Ghostty uses plist for macOS preferences
+if [ -f "$SCRIPT_DIR/configs/terminal/com.mitchellh.ghostty.plist" ]; then
+    cp "$SCRIPT_DIR/configs/terminal/com.mitchellh.ghostty.plist" ~/Library/Preferences/
+    print_success "Ghostty preferences installed"
+else
+    print_info "No Ghostty plist found in repo"
+fi
+
+# ============================================
+# 8. Final summary
 # ============================================
 echo ""
 echo "============================================"
@@ -253,6 +267,7 @@ echo "  ✓ Your .zshrc configuration"
 echo "  ✓ Neovim configuration (LazyVim)"
 echo "  ✓ tmux configuration"
 echo "  ✓ tmux plugins (navigator, resurrect, continuum, tokyo-night)"
+echo "  ✓ Ghostty terminal preferences"
 echo ""
 echo "To apply changes now, run:"
 echo "  exec zsh"
